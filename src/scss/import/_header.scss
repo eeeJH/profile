@@ -1,0 +1,20 @@
+/* _header.scss */
+
+.header_content {
+  position: relative;
+  height: 150px;
+  font-size: 20px;
+  color: #ffffff;
+  z-index: 10;
+
+  .header_text{
+    @include setposition(absolute, 0, 0, 0, 0);
+    width: 220px;
+    height: 40px;
+    margin: auto; 
+    
+    em{
+      @include setfont(null, NanumBarunGothic, 25px, 600);      
+    }
+  }
+}
