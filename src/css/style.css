@@ -50,7 +50,7 @@ h2 {
     left: 0;
     right: 0;
     bottom: 0;
-    width: 220px;
+    width: 260px;
     height: 40px;
     margin: auto; }
     .header_content .header_text em {
@@ -165,7 +165,7 @@ h2 {
   .main_wrap .move_btn {
     position: absolute;
     top: 50%;
-    margin-top: -30px;
+    margin-top: -70px;
     padding: 0;
     width: 25px;
     height: 60px;
@@ -229,7 +229,7 @@ h2 {
   .main_wrap .profile_content .about_me_content {
     color: #000000;
     font-family: AppleSDGothicNeo, sans-serif;
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 400; }
   .main_wrap .resume_content .resume_container {
     display: table;
@@ -265,6 +265,8 @@ h2 {
     font-weight: 400; } }
 
 @media screen and (min-width: 1024px) {
+  .main_wrap .move_btn {
+    margin-top: -30px; }
   .main_wrap .slider .slider_content {
     height: 500px; }
     .main_wrap .slider .slider_content.profile {

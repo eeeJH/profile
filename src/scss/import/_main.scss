@@ -145,7 +145,7 @@
   .move_btn {
     position: absolute;
     top: 50%;
-    margin-top: -30px;
+    margin-top: -70px;
     padding: 0;
     width: 25px;
     height: 60px;
@@ -175,6 +175,7 @@
 }
 
 @include phone {
+
   .main_wrap {
     margin-bottom: 210px;
 
@@ -194,100 +195,101 @@
   .main_wrap {
 
     .slider {
-  
+
       .slider_content {
         &.profile {
           background-image: url(../img/main/park_img@2.jpg);
         }
-  
+
         &.project {
           background-image: url(../img/main/capstone_design_img@2.jpg);
         }
-  
+
         &.resume {
           background-image: url(../img/main/forest_img@2.jpg);
         }
       }
-  
-      .container {  
+
+      .container {
         .inner {
           height: 60px;
-  
+
           .silder_text {
             @include setfont(#ffffff, HelveticaNeue, 30px, 600);
           }
         }
       }
     }
-  
+
     .portfolio_content {
       width: 680px;
       padding: 8px;
-  
+
       .content_heading {
         @include setfont(#252121, HelveticaNeue, 22px, 500);
-  
+
         &:after {
           width: 120px;
         }
       }
     }
-  
+
     .profile_content {
       .about_me_content {
-        @include setfont(#000000, AppleSDGothicNeo, 15px, 400);
+        @include setfont(#000000, AppleSDGothicNeo, 19px, 400);
       }
-  
+
     }
-  
+
     .resume_content {
-      .resume_container{
+      .resume_container {
         display: table;
         width: 100%;
         table-layout: fixed;
       }
+
       .resume_me_content {
         display: table-cell;
 
         .resume_list {
           margin-top: 20px;
-  
+
           .resume_list_item {
             margin: 5px 0;
           }
         }
       }
-  
+
       .kmou_link_wrap {
         display: table-cell;
         padding: 10px;
-  
+
         .kmou_link {
-  
+
           .kmou_logo {
             width: 200px;
           }
         }
       }
     }
-  
+
     .project_content {
       .project_item {
         .project_title {
           margin: 10px 0;
-  
+
           .project_name {
             @include setfont(#181818, HelveticaNeue, 18px, 600);
           }
         }
-  
+
         .project_info {
           .project_text {
             @include setfont(#181818, NanumBarunGothic, 17px, 400);
           }
         }
       }
-  
+
       .link_address {
         .project_link {
           @include setfont(#181818, HelveticaNeue, 18px, 400);
@@ -298,102 +300,107 @@
 }
 
 @include pc {
-  .main_wrap { 
-    .slider {  
+  .main_wrap {
+
+    .move_btn {
+      margin-top: -30px;
+    }
+
+    .slider {
       .slider_content {
         height: 500px;
- 
+
         &.profile {
           background-image: url(../img/main/park_img@2.jpg);
         }
-  
+
         &.project {
           background-image: url(../img/main/capstone_design_img@2.jpg);
         }
-  
+
         &.resume {
           background-image: url(../img/main/forest_img@2.jpg);
         }
       }
-  
+
       .container {
-  
+
         .inner {
           height: 70px;
-  
+
           .silder_text {
             @include setfont(#ffffff, HelveticaNeue, 35px, 500);
           }
         }
       }
     }
-  
+
     .portfolio_content {
       margin: 30px auto;
       width: 988px;
       padding: 10px;
-  
+
       .content_heading {
         @include setfont(#252121, HelveticaNeue, 32px, 500);
-  
+
         &:after {
           width: 125px;
         }
       }
     }
-  
+
     .profile_content {
       .about_me_content {
         @include setfont(#000000, AppleSDGothicNeo, 20px, 400);
       }
-  
+
     }
-  
+
     .resume_content {
-  
+
       .resume_me_content {
         .resume_list {
           margin-top: 20px;
-  
+
           .resume_list_item {
             margin: 5px 0;
           }
         }
       }
-  
+
       .kmou_link_wrap {
         padding: 15px;
-  
+
         .kmou_link {
-  
+
           .kmou_logo {
             width: 230px;
           }
         }
       }
     }
-  
+
     .project_content {
       .project_item {
         .project_title {
           margin: 10px 0;
-  
+
           .project_name {
             @include setfont(#181818, HelveticaNeue, 21px, 600);
           }
         }
-  
+
         .project_img {
           width: 420px;
         }
-  
+
         .project_info {
           .project_text {
             @include setfont(#181818, NanumBarunGothic, 20px, 400);
           }
         }
       }
-  
+
       .link_address {
         .project_link {
           @include setfont(#181818, HelveticaNeue, 21px, 400);
